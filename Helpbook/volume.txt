@@ -1,0 +1,6 @@
+For volume we are going to use {pamixer} tool which can be installed by arch package manager 
+
+pamixer --set-volume <percentage>     ---for particular percentage volume and don't go over 120% 
+
+pamixer --increase n
+pamixer --decrease n

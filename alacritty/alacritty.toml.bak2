@@ -1,0 +1,108 @@
+[env]
+TERM = "xterm-256color"
+
+[colors]
+draw_bold_text_with_bright_colors = true
+
+[[colors.indexed_colors]]
+color = "0xdc9656"
+index = 16
+
+[[colors.indexed_colors]]
+color = "0xa16946"
+index = 17
+
+[[colors.indexed_colors]]
+color = "0x282828"
+index = 18
+
+[[colors.indexed_colors]]
+color = "0x383838"
+index = 19
+
+[[colors.indexed_colors]]
+color = "0xb8b8b8"
+index = 20
+
+[[colors.indexed_colors]]
+color = "0xe8e8e8"
+index = 21
+
+[colors.bright]
+black = "#444b6a"
+blue = "#7da6ff"
+cyan = "#0db9d7"
+green = "#b9f27c"
+magenta = "#bb9af7"
+red = "#ff7a93"
+white = "#acb0d0"
+yellow = "#ff9e64"
+
+[colors.cursor]
+cursor = "CellForeground"
+text = "CellBackground"
+
+[colors.normal]
+black = "#32344a"
+blue = "#7aa2f7"
+cyan = "#449dab"
+green = "#9ece6a"
+magenta = "#ad8ee6"
+red = "#f7768e"
+white = "#787c99"
+yellow = "#e0af68"
+
+[colors.primary]
+background = "#0A1010"
+foreground = "#a9b1d6"
+
+[colors.selection]
+background = "#ffffff"
+text = "#000000"
+
+[cursor.style]
+shape = "Beam"
+
+[font]
+size = 10
+
+[font.bold]
+family = "MesloLGS Nerd Font Mono"
+style = "Bold"
+
+[font.glyph_offset]
+x = 0
+y = 0
+
+[font.italic]
+family = "MesloLGS Nerd Font Mono"
+style = "Italic"
+
+[font.normal]
+family = "MesloLGS Nerd Font Mono"
+style = "Regular"
+
+[font.offset]
+x = 0
+y = 0
+
+[[keyboard.bindings]]
+action = "SpawnNewInstance"
+key = "N"
+mods = "Control"
+
+[scrolling]
+history = 10000
+multiplier = 3
+
+[window]
+decorations = "full"
+opacity = 0.6
+
+[window.dimensions]
+columns = 140
+lines = 36
+
+[window.padding]
+x = 35
+y = 35
