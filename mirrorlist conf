@@ -1,0 +1,4 @@
+best mirrorlist according to your speed and security means https only 
+
+
+sudo reflector -l 20 -p https --sort rate --save /etc/pacman.d/mirrorlist
