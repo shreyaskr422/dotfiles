@@ -13,3 +13,5 @@ topgrade
 
 ideal  start for hyprland go with this https://dotfiles-docs.vercel.app/getting-started/about.html
 
+As for selecting default  app we are going to use selectdefaultapplication-fork-git software. we can donwload from arch repos
+
