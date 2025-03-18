@@ -9,4 +9,5 @@ ttf-emoji
 python-pynvim
 tf-jetbrains-mono-nerd
 ttf-cascadia-code-nerd
+topgrade
 
