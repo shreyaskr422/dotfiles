@@ -11,3 +11,5 @@ tf-jetbrains-mono-nerd
 ttf-cascadia-code-nerd
 topgrade
 
+ideal  start for hyprland go with this https://dotfiles-docs.vercel.app/getting-started/about.html
+
