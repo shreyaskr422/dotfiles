@@ -12,7 +12,7 @@ ttf-cascadia-code-nerd
 topgrade
 
 ideal  start for hyprland go with this 
-1. https://dotfiles-docs.vercel.app/getting-started/about.html
+1. https://rlw.pages.dev/
 2. https://dotfiles-docs.vercel.app/
 
 As for selecting default  app we are going to use selectdefaultapplication-fork-git software. we can donwload from arch repos
