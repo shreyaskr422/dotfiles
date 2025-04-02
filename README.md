@@ -1,4 +1,4 @@
-install xorg-host for the software that didn't launch on hyprland 
+**install xorg-host for the software that didn't launch on hyprland 
 
 xorg-server
 noise-suppression-for-voice
@@ -11,10 +11,17 @@ tf-jetbrains-mono-nerd
 ttf-cascadia-code-nerd
 topgrade
 
-ideal  start for hyprland go with this 
+**ideal  start for hyprland go with this 
 1. https://rlw.pages.dev/
 2. https://dotfiles-docs.vercel.app/
 
-As for selecting default  app we are going to use selectdefaultapplication-fork-git software. we can donwload from arch repos
+**As for selecting default  app we are going to use selectdefaultapplication-fork-git software. we can donwload from arch repos
 
-install nodejs npm for nvim reload and plugin install
+**install nodejs npm for nvim reload and plugin install
+
+**install 
+
+xf86-video-amdgpu - for amd igpu
+mkinitcpio-firmware - for missing firmware in mkinitcpio conf
+
+
