@@ -17,3 +17,4 @@ ideal  start for hyprland go with this
 
 As for selecting default  app we are going to use selectdefaultapplication-fork-git software. we can donwload from arch repos
 
+install nodejs npm for nvim reload and plugin install
