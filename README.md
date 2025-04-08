@@ -7,7 +7,7 @@ ttf-symbola
 ttf-dejavu
 ttf-emoji
 python-pynvim
-tf-jetbrains-mono-nerd
+ttf-jetbrains-mono-nerd
 ttf-cascadia-code-nerd
 topgrade
 
