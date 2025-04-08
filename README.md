@@ -14,8 +14,8 @@ topgrade
 
 After installing fonts we are going to upte it by certain  command 
 
- fc-cache -f -v     =  For the system  to aware that we have installed the fonts we needed
- sudo fc-cache -r   =  if we installed the font with sudors directory to know all the users that we have installed the new font
+ **fc-cache -f -v     =  For the system  to aware that we have installed the fonts we needed
+ **sudo fc-cache -r   =  if we installed the font with sudors directory to know all the users that we have installed the new font
 
 **ideal  start for hyprland go with this 
 1. https://rlw.pages.dev/
