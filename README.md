@@ -5,7 +5,7 @@ noise-suppression-for-voice
 alsa-firmware 
 ttf-symbola
 ttf-dejavu
-ttf-emoji
+noto-fonts-emoji
 python-pynvim
 ttf-jetbrains-mono-nerd
 ttf-cascadia-code-nerd
