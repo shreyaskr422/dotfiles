@@ -48,14 +48,4 @@ sudo mkinitcpio -P
 *   [Guide 1](https://rlw.pages.dev/)
 *   [Guide 2](https://dotfiles-docs.vercel.app/)
 ```
-
-**Why this is minimal:**
-
-*   **Combined Commands:** Merged font installation with core packages where possible.
-*   **Terse Descriptions:** Only the absolute minimum explanation (e.g., for `xorg-server`).
-*   **Direct Instructions:** Focuses on "run this command."
-*   **Minimal Formatting:** Uses only essential headings, code blocks, and bullet points.
-*   **Short Resource Links:** Abbreviated link text.
-*   **Implicit Prerequisites:** Assumes user knows about Arch, pacman, AUR helpers.
-
 This version cuts out almost all explanatory text and relies on the user understanding the context of an Arch Linux Hyprland setup.
