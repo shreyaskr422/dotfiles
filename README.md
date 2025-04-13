@@ -1,4 +1,4 @@
-Okay, here is an ultra-minimalist version focusing purely on the commands and essential steps from your original notes.
+Okey, here is the minimalist version .
 
 ```markdown
 # Dotfiles Setup
