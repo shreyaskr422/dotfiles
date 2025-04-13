@@ -47,5 +47,6 @@ sudo mkinitcpio -P
 *   [Hyprland Wiki](https://wiki.hyprland.org/)
 *   [Guide 1](https://rlw.pages.dev/)
 *   [Guide 2](https://dotfiles-docs.vercel.app/)
+*   [For Dotfile and colorscheme](https://dotfyle.com/)
 ```
 This version cuts out almost all explanatory text and relies on the user understanding the context of an Arch Linux Hyprland setup.
