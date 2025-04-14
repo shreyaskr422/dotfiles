@@ -37,6 +37,8 @@ sudo pacman -Syu --needed xf86-video-amdgpu mkinitcpio-firmware
 ```bash
 sudo mkinitcpio -P
 ```
+**5. As for picom [Use this picom fork](https://github.com/jonaburg/picom?tab=readme-ov-file)
+
 
 ## Apply Dotfiles
 
