@@ -26,7 +26,7 @@ fc-cache -f -v
 *   🎨 **Theme:** [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
 *   🖼️ **Icons:** [WhiteSur-icon-theme](https://github.com/vinceliuice/WhiteSur-icon-theme)
 *   🖱️ **Cursor:** [apple_cursor](https://github.com/ful1e5/apple_cursor)
-    *   ⚠️ **Heads Up:** These usually need manual installation. Follow the instructions on their GitHub pages (look for `./install.sh` or similar).
+    ️*🛠️ **Heads Up:** These usually need manual installation. Follow the instructions on their GitHub pages (look for `./install.sh` or similar).
 
 **3. 🔌 Neovim - The Coder's Hub**
 ```bash
@@ -34,7 +34,7 @@ fc-cache -f -v
 sudo pacman -Syu --needed nodejs npm
 ```
 
-**4. <0xF0><0x9F><0x94><0x84> Default Apps Handler (AUR) - Master Your Defaults**
+**4. 🧠 Default Apps Handler (AUR) - Master Your Defaults**
 ```bash
 # Use your champion AUR helper!
 # Example (yay):
@@ -46,7 +46,7 @@ sudo pacman -Syu --needed nodejs npm
 # ⚠️ IMPORTANT: Sub in *your* actual AUR helper command if you use something else!
 ```
 
-**5. <0xF0><0x9F><0x96><0xA5>️ GPU / Firmware (Optional, but often needed)**
+**5. ⚙️ GPU / Firmware (Optional, but often needed)**
 ```bash
 # Example for AMD:
 sudo pacman -Syu --needed xf86-video-amdgpu mkinitcpio-firmware
@@ -58,7 +58,7 @@ sudo pacman -Syu --needed xf86-video-amdgpu mkinitcpio-firmware
 sudo mkinitcpio -P
 ```
 
-**6. <0xF0><0x9F><0xAA><0x9F> Compositor (Picom) - Smooth Moves Only**
+**6. 🎨 Compositor (Picom) - Smooth Moves Only**
 *   **Recommended Fork:** [jonaburg/picom](https://github.com/jonaburg/picom?tab=readme-ov-file) (This is the one for superior blur/animations)
     *   ⚠️ **Build or AUR:** You'll need to build this from source *or* find a specific AUR package (e.g., `picom-jonaburg-git`). The standard `picom` package won't cut it for the advanced effects.
 
@@ -77,5 +77,3 @@ Knowledge is power:
 
 Go forth and customize! Enjoy the setup. 😎
 ```
-
-This version lists all the dependencies and resources but omits the specific instructions on *how* to apply the dotfiles themselves, assuming the user knows their preferred method (`stow`, `yadm`, `cp`, manual symlinking, etc.).
