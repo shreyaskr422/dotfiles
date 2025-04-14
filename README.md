@@ -1,3 +1,6 @@
+
+Here's the updated README, blending the new information in:
+
 ```markdown
 # Dotfiles Setup 🚀
 
