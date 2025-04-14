@@ -4,7 +4,7 @@
 Welcome! This repository contains my personal dotfiles for crafting a functional and aesthetically pleasing Arch Linux environment, centered around Hyprland. Let's get this setup looking sharp!
 
 *(Powering up the setup...)*
-![Anime Setup GIF](https://media.giphy.com/media/ztEgW4lPD3qSbZHVt2/giphy.gif)
+![Anime Setup GIF](https://www.itms.com/wp-content/uploads/2021/03/NEWS_GIFs_on_Social_Media-1.gif)
 
 ---
 
