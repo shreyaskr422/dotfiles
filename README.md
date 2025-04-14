@@ -70,4 +70,3 @@ Knowledge is power:
 ---
 
 Go forth and customize! Enjoy the setup. 😎
-```
