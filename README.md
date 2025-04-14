@@ -6,7 +6,9 @@ Welcome! This repository contains my personal dotfiles for crafting a functional
 *(Powering up the setup...)*
 ![Anime Setup GIF](https://www.itms.com/wp-content/uploads/2021/03/NEWS_GIFs_on_Social_Media-1.gif)
 
----
+
+
+---https://www.itms.com/wp-content/uploads/2021/03/NEWS_GIFs_on_Social_Media-1.gif
 
 ## 📦 Dependencies - Gathering the Components
 
