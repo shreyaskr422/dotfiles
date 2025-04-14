@@ -72,13 +72,3 @@ sudo mkinitcpio -P
 *   [Inspiration Dotfile Docs](https://dotfiles-docs.vercel.app/)
 *   [Dotfyle (Discover Dotfiles & Colorschemes)](https://dotfyle.com/)
 ```
-
-**Subtle Changes:**
-
-1.  **Emojis:** Added relevant emojis to the main title and section headers (📦, ✨, 🔌, <0xF0><0x9F><0x94><0x84>, <0xF0><0x9F><0xAA><0x9F>, ⚙️, 📚).
-2.  **Horizontal Rules:** Added `---` separators before "Apply Dotfiles" and "Resources" to create clearer visual breaks between the setup steps and the final actions/references.
-3.  **GPU Section:** Slightly rephrased the GPU section title and added a comment indicating where to add commands for other GPU types. Clarified when to run `mkinitcpio -P`.
-4.  **Apply Dotfiles:** Made the examples clearer with short descriptions.
-5.  **Resource Wording:** Minor tweak to the Dotfyle description.
-
-This adds a touch of visual flair without cluttering the minimalist approach.
