@@ -1,4 +1,4 @@
-```markdown
+markdown
 # My Dotfiles Setup ✨ Rice Like a Pro 💪
 
 Welcome! This repository contains my personal dotfiles for crafting a functional and aesthetically pleasing Arch Linux environment, centered around Hyprland. Let's get this setup looking sharp!
