@@ -1,0 +1,23 @@
+1. sudo efibootmgr         - (For checking the efi boot boot list to list down all enteris and it even show the past efiboot entries because it saves the enteries in the bios which have some memnory to save these entries) 
+
+
+
+2. sudo efibootmgr -b 0000 -B           -(You use this command to remove an old, broken, or unused boot entry from the UEFI firmware list)
+      
+      -b 0005 → Targets boot entry Boot0000
+      -B → Deletes the specified boot entry
+
+
+
+3. sudo efibootmgr -c -d /dev/nvme0n1 -p 1 -L "ArchLinux" -l "\EFI\arch\grubx64.efi"     ----(in my case the disks are nvme0n1 in your case that might me sda or sdb or something else) 
+
+     -c → creates a new EFI boot entry
+     -d /dev/nvme0n1 → disk where the EFI partition lives
+     -p 1 → partition number (nvme0n1p1, your EFI)
+     -L "ArchLinux" → name shown in BIOS/boot menu
+     -l "\EFI\arch\grubx64.efi" → path to GRUB loader inside EFI partition
+
+
+
+there are also many thins that gonna help you --- 1.lsblk                    -(command going to help you for disk and its partation)
+                                                  2.nvim /etc/fstab          -(for disk mounted information)  
