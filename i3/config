@@ -206,6 +206,10 @@ exec  --no-startup-id  feh --bg-fill ~/Pictures/wallpaper/japanese.png
 #title bar removal 
 default_border pixel 1
 
+# Removes the border in the focused window that blue light border
+for_window [class=".*"] border pixel 0
+
+
 #brightness
 bindsym XF86MonBrightnessUp exec --no-startup-id brightnessctl set 5%+
 bindsym XF86MonBrightnessDown exec --no-startup-id brightnessctl set 5%
@@ -217,5 +221,5 @@ exec --no-startup-id xrandr --output eDP --mode 1920x1080 --rate 144.15 --primar
 
 #For picom       USing this picom fork    https://github.com/jonaburg/picom?tab=readme-ov-file
 
-exec --no-startup-id picom --experimental-backend --backend=glx --vsync --config ~/.config/picom/picom.conf
+#exec --no-startup-id picom --experimental-backend --backend=glx --vsync --config ~/.config/picom/picom.conf
 
