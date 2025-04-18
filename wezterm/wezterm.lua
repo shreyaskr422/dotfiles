@@ -17,6 +17,8 @@ return {
 	-- macos_window_background_blur = 40,
 	-- macos_window_background_blur = 30,
 
+	default_cursor_style = "SteadyBlock",
+
 	--window_background_image = "/home/moon/Shrey/Pictures/rename.jpg",
 	--  window_background_image_hsb = {
 	-- >brightness = 0.1,
