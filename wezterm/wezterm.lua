@@ -1,14 +1,14 @@
 local wezterm = require("wezterm")
 return {
 	adjust_window_size_when_changing_font_size = false,
-	color_scheme = "Everforest Light (Gogh)",
+	-- color_scheme = "Everforest Light (Gogh)",
 	-- color_scheme = "Kanagawa Dragon (Gogh)",
 	-- color_scheme = "Papercolor Dark (Gogh)",
 	-- color_scheme = "Everforest Dark Soft (Gogh)",
 	-- color_scheme = "Dracula+",
         -- color_scheme = "duckbones", --Dark contrast
         -- color_scheme = "Django",    --Little Dark
-        -- color_scheme = "DjangoSmooth", --little Light and little pleasing
+        color_scheme = "DjangoSmooth", --little Light and little pleasing
 
 	enable_tab_bar = false,
 	font_size = 12.0,
