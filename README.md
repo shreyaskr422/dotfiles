@@ -6,7 +6,7 @@ Welcome! This repository contains my personal dotfiles for crafting a functional
 
 **1. Core / Xorg / Audio / Fonts / Utils** The absolute essentials.
 ```bash
-sudo pacman -Syu --needed xorg-server noise-suppression-for-voice alsa-firmware python-pynvim topgrade ttf-symbola ttf-dejavu noto-fonts-emoji ttf-jetbrains-mono-nerd ttf-cascadia-code-nerd
+sudo pacman -Syu --needed xorg-server noise-suppression-for-voice alsa-firmware python-pynvim topgrade ttf-symbola ttf-dejavu noto-fonts-emoji ttf-jetbrains-mono-nerd ttf-cascadia-code-nerd ttf-freebanglafont
 ```
 *   `xorg-server`: For Xwayland compatibility. Non-negotiable for some apps.
 
