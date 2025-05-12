@@ -57,8 +57,13 @@ sudo mkinitcpio -P
     *   ⚠️ **Build or AUR:** You'll need to build this from source *or* find a specific AUR package (e.g., `picom-jonaburg-git`). The standard `picom` package won't cut it for the advanced effects.
 
 ---
+**7. 💻For GPU or any shuttering problem for Nvidia graphics**
+*   **Needed To Add somethings:**
+*   **1. GRUB_CMDLINE_LINUX="nvidia_drm.modeset=1 rd.driver.blacklist=nouveau modprob.blacklist=nouveau"**
+*   **2. MODULES=(amdgpu nvidia nvidia_modeset nvidia_uvm nvidia_drm)**
 
-## 📚 Resources & Further Conquests
+
+ ## 📚 Resources & Further Conquests
 
 Knowledge is power:
 
