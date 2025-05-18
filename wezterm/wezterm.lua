@@ -1,23 +1,28 @@
+-----------------------Colorscheme
+
 local wezterm = require("wezterm")
 return {
 	adjust_window_size_when_changing_font_size = false,
 	-- color_scheme = "Everforest Light (Gogh)",
 	-- color_scheme = "Kanagawa Dragon (Gogh)",
-	-- color_scheme = "Papercolor Dark (Gogh)",
+	-- color_scheme = "Papercolor Light (Gogh)",
 	-- color_scheme = "Everforest Dark Soft (Gogh)",
 	-- color_scheme = "Dracula+",
-        -- color_scheme = "duckbones", --Dark contrast
-        -- color_scheme = "Django",    --Little Dark
-        color_scheme = "DjangoSmooth", --little Light and little pleasing
+	-- color_scheme = "duckbones", --Dark contrast
+	-- color_scheme = "Django",    --Little Dark color_scheme = "DjangoSmooth", --little Light and little pleasing to see
+	color_scheme = "rose-pine-dawn",
+
+	----------------------- Font
 
 	enable_tab_bar = false,
-	font_size = 12.0,
-	font = wezterm.font("JetBrainsMono Nerd Font"),
+	font_size = 15.0,
+	font = wezterm.font("JetBrains Mono", { weight = "Medium", italic = true }),
 	front_end = "OpenGL",
+	harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
 	-- macos_window_background_blur = 40,
 	-- macos_window_background_blur = 30,
 
-	default_cursor_style = "SteadyBlock",
+	-------------------------------- background or Overlay image
 
 	--window_background_image = "/home/moon/Shrey/Pictures/rename.jpg",
 	--  window_background_image_hsb = {
@@ -25,6 +30,11 @@ return {
 	-- >hue = 1.0,
 	-- >saturation = 1.0,
 	--},
+
+	---------------------------------- Curser
+
+	default_cursor_style = "SteadyBlock",
+
 	-- window_background_opacity = 0.92,
 	window_background_opacity = 1.0,
 	-- window_background_opacity = 0.78,
