@@ -73,6 +73,7 @@ Knowledge is power:
 *   **Discover Tools:** [Dotfyle](https://dotfyle.com/) (Find dotfiles, colorschemes, plugins)
 *   **Firefox Themes and customization:** [Firefox-Mod-Blur(https://github.com/datguypiko/Firefox-Mod-Blur)]
                                           [betterfox(https://github.com/yokoffing/Betterfox)]
+                                          [minimal_Firefox(https://github.com/xeji01/fujifox)]
 ---
 
 Go forth and customize! Enjoy the setup. 😎
