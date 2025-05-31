@@ -72,6 +72,7 @@ Knowledge is power:
 *   **See Other Setups:** [Inspiration Dotfile Docs](https://dotfiles-docs.vercel.app/)
 *   **Discover Tools:** [Dotfyle](https://dotfyle.com/) (Find dotfiles, colorschemes, plugins)
 *   **Firefox Themes and customization:** [Firefox-Mod-Blur(https://github.com/datguypiko/Firefox-Mod-Blur)]
+                                          [betterfox(https://github.com/yokoffing/Betterfox)]
 ---
 
 Go forth and customize! Enjoy the setup. 😎
