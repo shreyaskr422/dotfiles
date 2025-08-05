@@ -10,13 +10,15 @@ return {
 	-- color_scheme = "Dracula+",
 	-- color_scheme = "duckbones", --Dark contrast
 	-- color_scheme = "Django",    --Little Dark color_scheme = "DjangoSmooth", --little Light and little pleasing to see
-	color_scheme = "rose-pine-dawn",
-
+	-- color_scheme = "rose-pine-dawn",
+	color_scheme = "Gruvbox light, soft (base16)",
+	-- color_scheme = "Gruvbox dark, soft (base16)",
 	----------------------- Font
 
 	enable_tab_bar = false,
-	font_size = 15.0,
-	font = wezterm.font("JetBrains Mono", { weight = "Medium", italic = true }),
+	font_size = 12.0,
+	font = wezterm.font("Anonymous Pro"),
+	-- font = wezterm.font("SFMono Nerd Font"), --{ weight = "Medium", italic = true }),
 	front_end = "OpenGL",
 	harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
 	-- macos_window_background_blur = 40,
@@ -36,7 +38,7 @@ return {
 	default_cursor_style = "SteadyBlock",
 
 	-- window_background_opacity = 0.92,
-	window_background_opacity = 1.0,
+	window_background_opacity = 0.8,
 	-- window_background_opacity = 0.78,
 	-- window_background_opacity = 0.20,
 	window_decorations = "NONE",
