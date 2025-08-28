@@ -1,10 +1,24 @@
-# A TOML linter such as https://taplo.tamasfe.dev/ can use this schema to validate your config.
-# If you encounter any issues, please make an issue at https://github.com/yazi-rs/schemas.
-"$schema" = "https://yazi-rs.github.io/schemas/theme.json"
+# By default, theme management is done using a plugin ( yatline.yazi )
+# https://github.com/imsi32/yatline.yazi/wiki
 
-# vim:fileencoding=utf-8:foldmethod=marke# vim:fileencoding=utf-8:foldmethod=marker
 
-# : Flavor {{{
+#[flavor]
+#dark = "catppuccin-macchiato"
 
-[flavor]
-use = "tokyonight"
+#[flavor]
+#dark = "catppuccin-frappe"
+
+#[flavor]
+#dark = "catppuccin-mocha"
+
+#[flavor]
+#light = "catppuccin-latte"
+
+#[flavor]
+#use = "tokyonight"
+
+#[flavor]
+#use = "onedark"
+
+#[flavor]
+#dark = "dracula"
