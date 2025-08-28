@@ -1,4 +1,4 @@
-sudo chown -R username:username /mnt/sataSSD     -(Set correct ownership and permissions and in my case my ssd mount name is sataSSD do lsblk to see which name you have given for your SSD or Your Harddrive)
+sudo chown -R username:username /mnt/sataSSD     -(Set correct ownership and permissions and in my case my ssd mount name is sataSSD and Use lsblk to see which name you have given for your SSD or Your Harddrive)
 
 
 sudo chmod -R 755 /mnt/sataSSD                   -(Make it readable/writeable by you)
