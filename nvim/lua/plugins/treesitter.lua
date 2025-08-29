@@ -15,7 +15,6 @@ return {
 				"graphql",
 				"http",
 				"java",
-				"lua",
 				"php",
 				"rust",
 				"scss",
