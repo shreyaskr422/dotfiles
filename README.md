@@ -36,6 +36,7 @@ sudo pacman -Syu --needed nodejs npm
 ```
 
 **5. ⚙️ GPU / Firmware (Optional, but often needed)**
+
 ```bash
 # Example for AMD:
 sudo pacman -Syu --needed xf86-video-amdgpu mkinitcpio-firmware
@@ -48,13 +49,13 @@ sudo mkinitcpio -P
 ```
 
 **6. 🎨 Compositor (Picom) - Smooth Moves Only**
+
 * **Recommended Fork:** [jonaburg/picom](https://github.com/jonaburg/picom?tab=readme-ov-file) (This is the one for superior blur/animations)
 * **Build or AUR:** You'll need to build this from source *or* find a specific AUR package (e.g., `picom-jonaburg-git`). The standard `picom` package won't cut it for the advanced effects.
 
 ---
 **7. 💻For GPU or any shuttering problem for Nvidia graphics**
-* **Needed To Add somethings:**
-* 
+
   ```bash
   GRUB_CMDLINE_LINUX="nvidia_drm.modeset=1 rd.driver.blacklist=nouveau modprob.blacklist=nouveau"
   MODULES="amdgpu nvidia nvidia_modeset nvidia_uvm nvidia_drm"
