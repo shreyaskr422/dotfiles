@@ -56,11 +56,11 @@ sudo mkinitcpio -P
 * **Needed To Add somethings:**
 * 
   ```bash
-  GRUB_CMDLINE_LINUX="nvidia_drm.modeset=1 rd.driver.blacklist=nouveau modprob.blacklist=nouveau"**
+  GRUB_CMDLINE_LINUX="nvidia_drm.modeset=1 rd.driver.blacklist=nouveau modprob.blacklist=nouveau"
   ```
 * 
   ```bash
-  MODULES=(amdgpu nvidia nvidia_modeset nvidia_uvm nvidia_drm)**
+  MODULES=(amdgpu nvidia nvidia_modeset nvidia_uvm nvidia_drm)
  ```
 
 **8. 📚 Resources & Further Conquests
@@ -72,5 +72,4 @@ sudo mkinitcpio -P
 * **Firefox Customization:** [Firefox-Mod-Blur(https://github.com/datguypiko/Firefox-Mod-Blur)]
   [betterfox(https://github.com/yokoffing/Betterfox)]
   [minimal_Firefox(https://github.com/xeji01/fujifox)]
----
 
