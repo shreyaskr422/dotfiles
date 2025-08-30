@@ -30,14 +30,9 @@ sudo pacman -Syu --needed nodejs npm
 
 **4. 🧠 Default Apps Handler (AUR) - Master Your Defaults**
 ```bash
-# Use your champion AUR helper!
-# Example (yay):
+
+# (yay):
 # yay -S --needed selectdefaultapplication-fork-git
-
-# Example (paru):
-# paru -S --needed selectdefaultapplication-fork-git
-
-# ⚠️ IMPORTANT: Sub in *your* actual AUR helper command if you use something else!
 ```
 
 **5. ⚙️ GPU / Firmware (Optional, but often needed)**
