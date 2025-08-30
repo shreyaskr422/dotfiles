@@ -54,9 +54,14 @@ sudo mkinitcpio -P
 ---
 **7. 💻For GPU or any shuttering problem for Nvidia graphics**
 * **Needed To Add somethings:**
-* **1. GRUB_CMDLINE_LINUX="nvidia_drm.modeset=1 rd.driver.blacklist=nouveau modprob.blacklist=nouveau"**
-* **2. MODULES=(amdgpu nvidia nvidia_modeset nvidia_uvm nvidia_drm)**
-
+* **1.
+  ```bash
+  GRUB_CMDLINE_LINUX="nvidia_drm.modeset=1 rd.driver.blacklist=nouveau modprob.blacklist=nouveau"**
+  ```
+* **2.
+ ```bash
+  MODULES=(amdgpu nvidia nvidia_modeset nvidia_uvm nvidia_drm)**
+ ```
 
  ## 📚 Resources & Further Conquests
 
