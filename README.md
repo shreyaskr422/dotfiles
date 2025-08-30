@@ -65,15 +65,13 @@ sudo mkinitcpio -P
 
  ## 📚 Resources & Further Conquests
 
-Knowledge is power:
-
-*   **Hyprland Bible:** [Official Hyprland Wiki](https://wiki.hyprland.org/)
-*   **Linux Fundamentals:** [Starting Linux Guide](https://rlw.pages.dev/)
-*   **See Other Setups:** [Inspiration Dotfile Docs](https://dotfiles-docs.vercel.app/)
-*   **Discover Tools:** [Dotfyle](https://dotfyle.com/) (Find dotfiles, colorschemes, plugins)
-*   **Firefox Themes and customization:** [Firefox-Mod-Blur(https://github.com/datguypiko/Firefox-Mod-Blur)]
-                                          [betterfox(https://github.com/yokoffing/Betterfox)]
-                                          [minimal_Firefox(https://github.com/xeji01/fujifox)]
+*   **Hyprland:** [Official Hyprland Wiki](https://wiki.hyprland.org/)
+*   **Linux:** [Starting Linux Guide](https://rlw.pages.dev/)
+*   **Other Setups:** [Inspiration Dotfile Docs](https://dotfiles-docs.vercel.app/)
+*   **Tools:** [Dotfyle](https://dotfyle.com/) (Find dotfiles, colorschemes, plugins)
+*   **Firefox Customization:** [Firefox-Mod-Blur(https://github.com/datguypiko/Firefox-Mod-Blur)]
+  [betterfox(https://github.com/yokoffing/Betterfox)]
+  [minimal_Firefox(https://github.com/xeji01/fujifox)]
 ---
 
 Go forth and customize! Enjoy the setup. 😎
