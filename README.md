@@ -63,7 +63,7 @@ sudo mkinitcpio -P
   MODULES=(amdgpu nvidia nvidia_modeset nvidia_uvm nvidia_drm)**
  ```
 
- ## 📚 Resources & Further Conquests
+**8. 📚 Resources & Further Conquests
 
 * **Hyprland:** [Official Hyprland Wiki](https://wiki.hyprland.org/)
 * **Linux:** [Starting Linux Guide](https://rlw.pages.dev/)
