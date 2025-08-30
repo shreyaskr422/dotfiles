@@ -4,27 +4,27 @@ local wezterm = require("wezterm")
 return {
 	adjust_window_size_when_changing_font_size = false,
 	-- color_scheme = "Everforest Light (Gogh)",
-	-- color_scheme = "Kanagawa Dragon (Gogh)",
+	color_scheme = "Kanagawa Dragon (Gogh)",
 	-- color_scheme = "Papercolor Light (Gogh)",
 	-- color_scheme = "Everforest Dark Soft (Gogh)",
 	-- color_scheme = "Dracula+",
 	-- color_scheme = "duckbones", --Dark contrast
 	-- color_scheme = "Django",    --Little Dark color_scheme = "DjangoSmooth", --little Light and little pleasing to see
 	-- color_scheme = "rose-pine-dawn",
-	color_scheme = "Gruvbox light, soft (base16)",
+	-- color_scheme = "Gruvbox light, soft (base16)",
 	-- color_scheme = "Gruvbox dark, soft (base16)",
 	----------------------- Font
 
 	enable_tab_bar = false,
 	font_size = 12.0,
-	font = wezterm.font("Anonymous Pro"),
-	-- font = wezterm.font("SFMono Nerd Font"), --{ weight = "Medium", italic = true }),
+	font = wezterm.font("SFMono Nerd Font"), --{ weight = "Medium", italic = true }),
 	front_end = "OpenGL",
 	harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
 	-- macos_window_background_blur = 40,
 	-- macos_window_background_blur = 30,
 
 	-------------------------------- background or Overlay image
+	window_close_confirmation = "NeverPrompt",
 
 	--window_background_image = "/home/moon/Shrey/Pictures/rename.jpg",
 	--  window_background_image_hsb = {
