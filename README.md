@@ -59,7 +59,7 @@ sudo mkinitcpio -P
   GRUB_CMDLINE_LINUX="nvidia_drm.modeset=1 rd.driver.blacklist=nouveau modprob.blacklist=nouveau"**
   ```
 * 
- ```bash
+  ```bash
   MODULES=(amdgpu nvidia nvidia_modeset nvidia_uvm nvidia_drm)**
  ```
 
