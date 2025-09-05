@@ -1,12 +1,13 @@
 return {
+	{ "sainnhe/everforest", lazy = false },
+	-- Configure LazyVim to load colorscheme
+
 	{
-		"craftzdog/solarized-osaka.nvim",
-		lazy = true,
-		priority = 1000,
-		opts = function()
-			return {
-				transparent = true,
-			}
-		end,
+		"LazyVim/LazyVim",
+		opts = {
+			colorscheme = "everforest",
+			priority = 1000, -- Change to your preferred colorscheme
+			transparent = true, -- Enable transparent background
+		},
 	},
 }
