@@ -1,46 +1,35 @@
------------------------Colorscheme
-
 local wezterm = require("wezterm")
 return {
 	adjust_window_size_when_changing_font_size = false,
 	-- color_scheme = "Everforest Light (Gogh)",
-	color_scheme = "Kanagawa Dragon (Gogh)",
+	-- color_scheme = "Kanagawa Dragon (Gogh)",
 	-- color_scheme = "Papercolor Light (Gogh)",
 	-- color_scheme = "Everforest Dark Soft (Gogh)",
+	color_scheme = "Everforest Dark Medium (Gogh)",
 	-- color_scheme = "Dracula+",
-	-- color_scheme = "duckbones", --Dark contrast
-	-- color_scheme = "Django",    --Little Dark color_scheme = "DjangoSmooth", --little Light and little pleasing to see
+	-- color_scheme = "duckbones",
+	-- color_scheme = "Django",
 	-- color_scheme = "rose-pine-dawn",
 	-- color_scheme = "Gruvbox light, soft (base16)",
 	-- color_scheme = "Gruvbox dark, soft (base16)",
-	----------------------- Font
+	-- color_scheme = "Builtin Solarized Dark",
 
-	enable_tab_bar = false,
-	font_size = 12.0,
-	font = wezterm.font("SFMono Nerd Font"), --{ weight = "Medium", italic = true }),
-	front_end = "OpenGL",
+	font_size = 11.0,
+	font = wezterm.font("SFMono Nerd Font"),
 	harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
-	-- macos_window_background_blur = 40,
-	-- macos_window_background_blur = 30,
+	front_end = "OpenGL",
 
-	-------------------------------- background or Overlay image
-	window_close_confirmation = "NeverPrompt",
-
-	--window_background_image = "/home/moon/Shrey/Pictures/rename.jpg",
-	--  window_background_image_hsb = {
-	-- >brightness = 0.1,
-	-- >hue = 1.0,
-	-- >saturation = 1.0,
+	-- window_background_image = "/home/moon/Shrey/Pictures/rename.jpg",
+	-- window_background_image_hsb = {
+	-- brightness = 0.1,
+	-- hue = 1.0,
+	-- saturation = 1.0,
 	--},
 
-	---------------------------------- Curser
-
+	window_close_confirmation = "NeverPrompt",
+	enable_tab_bar = false,
 	default_cursor_style = "SteadyBlock",
-
-	-- window_background_opacity = 0.92,
-	window_background_opacity = 0.8,
-	-- window_background_opacity = 0.78,
-	-- window_background_opacity = 0.20,
+	window_background_opacity = 0.97,
 	window_decorations = "NONE",
 	window_padding = {
 		left = 25,
