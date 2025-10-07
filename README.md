@@ -31,7 +31,6 @@ sudo pacman -Syu --needed nodejs npm
 **4. 🧠 Default Apps Handler (AUR) - Master Your Defaults**
 ```bash
 
-# (yay):
 # yay -S --needed selectdefaultapplication-fork-git
 ```
 
