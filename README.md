@@ -39,9 +39,9 @@ sudo pacman -Syu --needed nodejs npm
 
 ```bash
 # Example for AMD:
-sudo pacman -Syu --needed xf86-video-amdgpu mkinitcpio-firmware
+sudo pacman -Syu --needed xf86-video-amdgpu mkinitcpio-firmware nvidia-open-dkms nvidia-utils
 
-# ➡️ Nvidia/Intel users: Add your specific driver installation commands here!
+# Nvidia/Intel users: Add your specific driver installation commands here!
 ```
 **Crucial Step:** After installing GPU drivers (or if `mkinitcpio-firmware` was added), rebuild the initramfs:
 ```bash
