@@ -13,9 +13,15 @@ return {
 	-- color_scheme = "Gruvbox light, soft (base16)",
 	-- color_scheme = "Gruvbox dark, soft (base16)",
 	-- color_scheme = "Builtin Solarized Dark",
+	-- color_scheme = "Solarized Dark - Patched",
 
-	font_size = 11.0,
-	font = wezterm.font("SFMono Nerd Font"),
+	font_size = 14.0,
+	font = wezterm.font({
+		-- family = "SFMono Nerd Font",
+		family = "Iosevka Nerd Font Mono",
+		--weight = "Bold",
+	}),
+
 	harfbuzz_features = { "calt=0", "clig=0", "liga=0" },
 	front_end = "OpenGL",
 
