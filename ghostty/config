@@ -1,1 +1,6 @@
-theme = everforest-light
+theme =  Jackie Brown
+font-family = "Iosevka Nerd Font Mono"
+font-size = 14
+window-padding-x = 23
+window-padding-y = 25
+confirm-close-surface = false
