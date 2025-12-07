@@ -20,6 +20,7 @@ fc-cache -f -v
 * 🎨 **Theme:** [WhiteSur-gtk-theme](https://github.com/vinceliuice/WhiteSur-gtk-theme)
 * 🖼️ **Icons:** [WhiteSur-icon-theme](https://github.com/vinceliuice/WhiteSur-icon-theme)
 * 🖱️ **Cursor:** [apple_cursor](https://github.com/ful1e5/apple_cursor)
+* [https://github.com/saifulapm/my-fonts]
     ️*🛠️ **Heads Up:** These usually need manual installation. Follow the instructions on their GitHub pages (look for `./install.sh` or similar).
 
 **3. 🔌 Neovim - The Coder's Hub**
