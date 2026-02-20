@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "DankMono Nerd Font Mono:pixelsize=15:antialias=true:autohint=true";
-static char *font2[] = { "JoyPixels:pixelsize=16:antialias=true:autohint=true" };
+static char *font = "DankMono Nerd Font Mono:pixelsize=19:antialias=true:autohint=true";
+static char *font2[] = { "Noto Color Emoji:pixelsize=17:antialias=true:autohint=true" };
 static int borderpx = 15;
 
 /*
@@ -113,30 +113,30 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	"#282828", /* hard contrast: #1d2021 / soft contrast: #32302f */
-	"#cc241d",
-	"#98971a",
-	"#d79921",
-	"#458588",
-	"#b16286",
-	"#689d6a",
-	"#a89984",
-	"#928374",
-	"#fb4934",
-	"#b8bb26",
-	"#fabd2f",
-	"#83a598",
-	"#d3869b",
-	"#8ec07c",
-	"#ebdbb2",
-	[255] = 0,
-	/* more colors can be added after 255 to use with DefaultXX */
-	"#add8e6", /* 256 -> cursor */
-	"#555555", /* 257 -> rev cursor*/
-	"#282828", /* 258 -> bg */
-	"#ebdbb2", /* 259 -> fg */
-};
+    "#0f1a17",
+    "#8c3b3b",
+    "#5f8f6f",
+    "#b59a6a",
+    "#4f7a8a",
+    "#8b6f8f",
+    "#5f8f86",
+    "#e6e1cf",
 
+    "#1a2622",
+    "#a34a4a",
+    "#7ea083",
+    "#c9b27a",
+    "#6f8fa3",
+    "#a083a3",
+    "#83a3a0",
+    "#f2eddc",
+
+    [255] = 0,
+    "#c9b27a",
+    "#555555",
+    "#0f1a17",
+    "#e6e1cf",
+};
 
 /*
  * Default colors (colorname index)
