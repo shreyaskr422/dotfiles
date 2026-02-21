@@ -1,0 +1,141 @@
+{ config, pkgs, ... }:
+
+{
+  imports = [ ./hardware-configuration.nix ];
+
+  # --- KERNEL & BOOT ---
+  # Essential for Ryzen 8000 and RTX 50 series support
+  boot.kernelPackages = pkgs.linuxPackages_latest;
+  boot.loader.grub = {
+    enable = true;
+    device = "nodev";
+    useOSProber = true;
+    efiSupport = true;
+  };
+  boot.loader.efi.canTouchEfiVariables = true;
+  boot.loader.efi.efiSysMountPoint = "/boot";
+
+  # --- ASUS & GPU HARDWARE ---
+  services.asusd.enable = true;
+  services.supergfxd.enable = true;
+
+  hardware.graphics = {
+    enable = true;
+    enable32Bit = true;
+  };
+
+  services.xserver.videoDrivers = [ "nvidia" ];
+
+  hardware.nvidia = {
+    modesetting.enable = true;
+    powerManagement.enable = true;
+    # "open" is highly recommended for RTX 50 series/Ada Lovelace
+    open = true; 
+    nvidiaSettings = true;
+    package = config.boot.kernelPackages.nvidiaPackages.stable;
+
+    prime = {
+      offload.enable = true;
+      offload.enableOffloadCmd = true;
+      # 6a:00.0 (AMD) -> 6a is 106 in decimal
+      # 01:00.0 (Nvidia) -> 01 is 1 in decimal
+      amdgpuBusId = "PCI:106:0:0"; 
+      nvidiaBusId = "PCI:1:0:0";
+    };
+  };
+
+  # --- PERFORMANCE & BATTERY (FOR 8940HX) ---
+  # Prioritizing speed while plugged in and battery when away
+  services.thermald.enable = true;
+  services.tlp = {
+    enable = true;
+    settings = {
+      CPU_SCALING_GOVERNOR_ON_AC = "performance";
+      CPU_SCALING_GOVERNOR_ON_BAT = "powersave";
+      CPU_ENERGY_PERF_POLICY_ON_BAT = "power";
+      AMD_PSTATE_STATUS = "active";
+    };
+  };
+
+  # --- HYPRLAND & WAYLAND ---
+  programs.hyprland = {
+    enable = true;
+    xwayland.enable = true;
+  };
+
+  # Portals for screen sharing/file management
+  xdg.portal = {
+    enable = true;
+    extraPortals = [ pkgs.xdg-desktop-portal-hyprland ];
+  };
+
+  # --- USER & SHELL ---
+  users.users.moon = {
+    isNormalUser = true;
+    extraGroups = [ "wheel" "networkmanager" "video" "libvirtd" ];
+    shell = pkgs.zsh;
+  };
+
+  programs.zsh = {
+    enable = true;
+    autosuggestions.enable = true;
+    syntaxHighlighting.enable = true;
+  };
+
+  # --- PACKAGES (Your Preferences) ---
+  environment.systemPackages = with pkgs; [
+    # Terminal/Editor
+    kitty
+    neovim
+    st
+    
+    # Hyprland Ecosystem
+    swww
+    waybar
+    networkmanagerapplet
+    swaynotificationcenter
+    rofi-wayland
+    grim
+    slurp
+    wl-clipboard
+    brightnessctl
+    playerctl
+    nwg-look
+    
+    # Apps
+    firefox
+    chromium
+    nautilus
+    cider
+    yazi
+    
+    # Utils
+    btop
+    nvtopPackages.full
+    fastfetch
+    eza
+    bat
+    fzf
+    ripgrep
+    tldr
+  ];
+
+  # --- FONTS ---
+  fonts.packages = with pkgs; [
+    (nerdfonts.override { fonts = [ "JetBrainsMono" ]; })
+    noto-fonts-emoji
+  ];
+
+  # --- NETWORKING & LOCALE ---
+  networking.hostName = "SoS";
+  networking.networkmanager.enable = true;
+  time.timeZone = "Asia/Kolkata";
+  nixpkgs.config.allowUnfree = true;
+
+  # Nix Settings
+  nix.settings.experimental-features = [ "nix-command" "flakes" ];
+
+  # --- STATE VERSION ---
+  # Matches your current stable release 25.11
+  system.stateVersion = "25.11"; 
+}
