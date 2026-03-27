@@ -7,7 +7,7 @@
  */
 static char *font = "DankMono Nerd Font Mono:pixelsize=19:antialias=true:autohint=true";
 static char *font2[] = { "Noto Color Emoji:pixelsize=17:antialias=true:autohint=true" };
-static int borderpx = 15;
+static int borderpx = 5;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -113,41 +113,41 @@ float alphaUnfocus;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-    "#0f1a17",
-    "#8c3b3b",
-    "#5f8f6f",
-    "#b59a6a",
-    "#4f7a8a",
-    "#8b6f8f",
-    "#5f8f86",
-    "#e6e1cf",
+    /* 8 normal colors */
+    "#0c1014", /* black   */
+    "#c23127", /* red     */
+    "#2aa889", /* green   */
+    "#edb443", /* yellow  */
+    "#195466", /* blue    */
+    "#4e5166", /* magenta */
+    "#33859e", /* cyan    */
+    "#99d1ce", /* white   */
 
-    "#1a2622",
-    "#a34a4a",
-    "#7ea083",
-    "#c9b27a",
-    "#6f8fa3",
-    "#a083a3",
-    "#83a3a0",
-    "#f2eddc",
+    /* 8 bright colors */
+    "#0c1014", /* black   */
+    "#c23127", /* red     */
+    "#2aa889", /* green   */
+    "#edb443", /* yellow  */
+    "#195466", /* blue    */
+    "#4e5166", /* magenta */
+    "#33859e", /* cyan    */
+    "#99d1ce", /* white   */
 
-    [255] = 0,
-    "#c9b27a",
-    "#555555",
-    "#0f1a17",
-    "#e6e1cf",
+    /* special colors */
+    [256] = "#0c1014", /* background */
+    [257] = "#99d1ce", /* foreground */
+    [258] = "#99d1ce", /* cursor */
 };
 
 /*
  * Default colors (colorname index)
  * foreground, background, cursor, reverse cursor
  */
-unsigned int defaultfg = 259;
-unsigned int defaultbg = 258;
-unsigned int defaultcs = 256;
-unsigned int defaultrcs = 257;
-unsigned int background = 258;
-
+unsigned int defaultfg = 257;
+unsigned int defaultbg = 256;
+unsigned int defaultcs = 258;
+unsigned int defaultrcs = 258;
+unsigned int background = 256;
 /*
  * Default shape of cursor
  * 2: Block ("█")
@@ -206,9 +206,9 @@ ResourcePref resources[] = {
 		{ "color13",      STRING,  &colorname[13] },
 		{ "color14",      STRING,  &colorname[14] },
 		{ "color15",      STRING,  &colorname[15] },
-		{ "background",   STRING,  &colorname[258] },
-		{ "foreground",   STRING,  &colorname[259] },
-		{ "cursorColor",  STRING,  &colorname[256] },
+		{ "background",   STRING,  &colorname[256] },
+		{ "foreground",   STRING,  &colorname[257] },
+		{ "cursorColor",  STRING,  &colorname[258] },
 		{ "termname",     STRING,  &termname },
 		{ "shell",        STRING,  &shell },
 		{ "minlatency",   INTEGER, &minlatency },
